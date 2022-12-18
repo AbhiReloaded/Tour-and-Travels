@@ -1,0 +1,726 @@
+.top-navbar{
+    background-color:#fe782e;
+}
+.phone{
+    margin: 10px 0 10px 185px;
+    float: left;
+}
+.top-navbar p{
+    color: white;
+    margin: 5px 0 5px 0;
+    padding-left: 25px;
+    float: left;
+}
+.social_media
+{
+    padding-top: 5px;
+}
+.navbar{
+    background-color: #d6d6d6 !important;
+
+}
+
+.logo{
+    padding-left: 150px;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+@media screen and (max-width: 1200px) {
+    .navbar-nav {
+        margin-left: 120px;
+    }
+    }
+    
+.nav-link{
+    padding-left: 55px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    font-family: Roboto;
+}
+.nav-link:hover{
+    color: #fe782e !important;
+}
+.banner {
+	background-image:url("../Images/banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: 100%;
+}
+
+.banner .opacity_overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    padding-top: 100px;
+}
+
+.banner .opacity_overlay .info {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner .opacity_overlay .info h2 {
+	color: #fff;
+	font-size: 60px;
+    font-family: Baskerville Old Face;
+    padding-left: 25%;
+    padding-top: 20px;
+}
+.banner .opacity_overlay .info p{
+    color: #fff;
+    font-family: Baskerville Old Face;
+    padding-left: 25%;
+}
+
+.banner .opacity_overlay .info hr {
+	width: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.banner .opacity_overlay .secondary_layer {
+    width: auto;
+    height: 200px;
+    margin-left: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+.banner .opacity_overlay .secondary_layer .btn {
+	text-decoration: none;
+    color: white;
+}
+
+.banner .opacity_overlay .secondary_layer .btn button {
+	background: #fe782e;
+	border: none;
+	padding: 8px 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	outline: none;
+	transition: background-color 0.2s ease;
+    color: #fff;
+}
+
+.banner .opacity_overlay .secondary_layer .btn button:hover {
+	background: #000;
+	color: #fff;
+}
+
+/* Font size change on browser resize */
+
+@media screen and (max-width: 991px) {
+.banner .opacity_overlay .info h2 {
+	font-size: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.banner .opacity_overlay .info h2 {
+	font-size: 26px;
+}
+}
+
+@media screen and (max-width: 631px) {
+.banner .opacity_overlay .info h2 {
+	font-size: 22px;
+}
+}
+
+@media screen and (max-width: 534px) {
+.banner .opacity_overlay .info h2 {
+	font-size: 20px;
+}
+}
+@media screen and (max-width: 534px) {
+.banner .opacity_overlay .secondary_layer .msg {
+	font-size: 13px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.banner .opacity_overlay .secondary_layer .msg span {
+	font-size: 18px;
+}
+}
+
+@media screen and (max-width: 534px) {
+.banner .opacity_overlay .secondary_layer .msg span {
+	font-size: 16px;
+}
+}
+.ppl-destination{
+    margin-top: 150px;
+}
+.ppl-destination h1{
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+.v-all{
+    text-align: center;
+}
+.v-all a{
+    text-decoration:none ;
+    color: #fe782e;
+    font-family: Roboto;
+}
+.tour{
+    margin-top: 70px;
+}
+.kashmir{
+    background-image: url("../Images/simla.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: auto;
+    padding-top: 20px;
+    border-radius: 6px;
+}
+.kashmir h3{
+    padding-top: 400px;
+    padding-left: 60px;
+    font-family: Roboto;
+    color: #fff;
+}
+.kashmir a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 60px;
+    font-family: Roboto;
+}
+.kashmir a span{
+    padding-left: 20px;
+}
+.kashmir a:hover{
+    color: #fe782e;
+}
+.rajasthan{
+    background-image: url("../Images/rajasthan.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 6px;
+    text-align: center;
+}
+.rajasthan h3{
+    padding-top: 400px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+}.rajasthan a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto;
+    
+}
+.rajasthan a span{
+    padding-left: 10px;
+}
+.rajasthan a:hover{
+    color: #fe782e;
+}
+@media screen and (max-width: 991px) {
+    .rajasthan {
+        padding-top: 70px;
+        margin-left: 0px;
+}
+}
+.simla{
+    background-image: url("../Images/simla.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: 560px;
+    margin-top: 60px;
+    border-radius: 6px;
+    text-align: center;
+}
+.simla h3{
+    padding-top: 400px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+}
+.simla a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto;
+}
+.simla a span{
+    padding-left: 10px;
+}
+.simla a:hover{
+    color: #fe782e;
+}
+.arunachal-pradesh{
+    background-image: url("../Images/ap.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: 560px;
+    margin-top: 60px;
+    border-radius: 6px;
+    text-align: center;
+}
+.arunachal-pradesh h3{
+    padding-top: 400px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+}
+.arunachal-pradesh a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto;
+}
+.arunachal-pradesh a span{
+    padding-left: 10px;
+}
+.arunachal-pradesh a:hover{
+    color: #fe782e;
+}
+.kerala-kanyakumari{
+    background-image: url("../Images/kerala.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: 560px;
+    margin-top: 60px;
+    border-radius: 6px;
+    text-align: center;
+}
+.kerala-kanyakumari h3{
+    padding-top: 400px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+}
+.kerala-kanyakumari a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto;
+}
+.kerala-kanyakumari a span{
+    padding-left: 10px;
+}
+.kerala-kanyakumari a:hover{
+    color: #fe782e;
+}
+.tour2{
+    margin-left: 135px;
+}
+@media screen and (max-width: 1200px) {
+    .tour2 {
+        margin-left: 40px;
+}
+}
+@media screen and (max-width: 991px) {
+    .tour2 {
+        margin-left: 0px;
+}
+}
+.pte-bg{
+    width: 100%;
+    height: 1200px;
+    background-color: #f5f5f5;
+    margin-top: 160px;
+}
+.back{
+    background-image: url("../Images/bg-pte.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:500px;
+    height: 500px;
+    margin-top: 190px;
+    margin-left: 330px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    float: left;
+}
+.front{
+    top: 330px;
+    left: 180px;
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+}
+.pte-bg h1{
+    position: relative;
+    font-family: Baskerville Old Face;
+    margin-top: 185px;
+}
+.pte-bg h6{
+    position: relative;
+    font-family: Roboto;
+    color: #fe782e;
+    padding-top: 20px;
+}
+.pte-bg h5{
+    color: #a2a1a1;
+    padding-top: 10px;
+    font-family: Adamina;
+    padding-right: 300px;
+}
+.pte-text span{
+    padding-left:15px ;
+    color: #000;
+}
+@media screen and (max-width: 1200px) {
+    .pte-bg  {
+        height: auto;
+}
+}
+@media screen and (max-width: 1200px) {
+    .pte-bg-text {
+        padding-top: 650px;
+        margin-left: -300px;
+}
+}
+@media screen and (max-width: 1200px) {
+    .pte-bg h5 {
+        padding: 0;
+}
+}
+@media screen and (max-width: 991px) {
+    .pte-bg-text {
+        padding-top: 200px;
+        margin-left: 50px;
+}
+}
+.plan-1{
+    padding-top: 35px;
+}
+.raj-tour{
+    width: 100%;
+    height: 470px;
+}
+.simla-tour{
+    width: 420px;
+    height: 470px;
+
+}
+.gujrat-tour{
+    width: 420px;
+    height: 470px;
+    border-radius: 6px
+}
+.light{
+    float: left;
+    padding-top: 20px;
+}
+.raj-tour-text{
+    text-align: center;    
+}
+.raj-tour-text p{
+    padding-top: 20px;
+    font-size: 28px;
+}
+.know-more-btn{
+    background-color: #fe782e !important;
+    color: #f5f5f5 !important;
+    border-radius: 0% !important;
+}
+@media screen and (max-width: 991px) {
+    .raj-tour {
+        margin-top: 20px;
+
+}
+}
+.banner2 {
+	background-image:url("../Images/mountain-range.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+    height: 660px;
+    margin-top: 215px;
+}
+
+.banner2 .opacity_overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    padding-top: 100px;
+}
+
+.banner2 .opacity_overlay .info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner2 .opacity_overlay .info h1 {
+	color: #fff;
+	text-transform: uppercase;
+    font-family: Baskerville Old Face;
+	font-size: 50px;
+    padding-top: 100px;
+}
+.banner2 .opacity_overlay .info h6 {
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+    font-family: Roboto;
+    padding-top: 60px;
+}
+
+.banner2 .opacity_overlay .secondary_layer .msg {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 991px) {
+.banner2 .opacity_overlay .info h1 {
+	font-size: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.banner2 .opacity_overlay .info h1 {
+	font-size: 26px;
+}
+}
+
+@media screen and (max-width: 631px) {
+.banner2 .opacity_overlay .info h1 {
+	font-size: 22px;
+}
+}
+
+@media screen and (max-width: 534px) {
+.banner2 .opacity_overlay .info h1 {
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.banner2 .opacity_overlay .info h6 {
+	font-size: 12px;
+}
+}
+
+@media screen and (max-width: 534px) {
+.banner2 .opacity_overlay .info h6 {
+	font-size: 10px;
+}
+}
+.tour-side{
+    padding-top: 55px;
+    text-align: center;
+}
+.tour-side h5 {
+    color:white ;
+}
+.china-tour{
+    padding-top: 15px;
+    margin-left: 50px;
+}
+.forest-tour{
+    padding-top: 23px;
+    margin-left: 50px;
+}
+.wildlife-tour{
+    padding-top: 12px;
+    margin-left: 50px;
+}
+.beach-tour{
+    padding-top: 35px;
+    margin-left: 50px;
+}
+.tour-side h5{
+    padding-top: 30px;
+}
+.tour-side h5:hover{
+    color: #fe782e;
+}
+@media screen and (max-width: 1200px) {
+    .pisa-tour  {
+        margin-left: 40px;
+}
+}
+@media screen and (max-width: 1200px) {
+    .china-tour  {
+        margin-left: 10px;
+}
+}
+@media screen and (max-width: 1200px) {
+    .forest-tour {
+        margin-left: 10px;
+}
+}
+@media screen and (max-width: 1200px) {
+    .wildlife-tour {
+        margin-left: 10px;
+}
+}
+@media screen and (max-width: 1200px) {
+    .beach-tour {
+        margin-left: 10px;
+}
+}
+@media screen and (max-width: 991px) {
+    .china-tour  {
+        margin-left: 10px;
+}
+}
+@media screen and (max-width: 991px) {
+    .forest-tour  {
+        margin-left: 10px;
+}
+}
+@media screen and (max-width: 991px) {
+    .wildlife-tour  {
+        margin-left: 10px;
+    }
+    }
+@media screen and (max-width: 991px) {
+    .beach-tour  {
+        margin-left: 10px;
+}
+}
+.carousel{
+    margin-top: 140px;
+}
+.carousel-inner{
+    height: auto;
+    text-align: center;
+}
+.carousel-item h1{
+    font-family: Baskerville Old Face;
+    font-size: 50px;
+}
+.carousel-item h6{
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fe782e;
+    padding-top: 40px;
+}
+.carousel-item h5{
+    font-family: Adamina;
+    font-size: 22px;
+    color: #a2a1a1;
+    padding-top: 75px;
+}
+.carousel-item h2{
+    font-family: Nueva Std;
+    font-size: 60px;
+    color: #fe782e;
+    padding-top: 60px;
+}
+.carousel-item h3{
+    font-family: Nueva Std;
+    font-size: 30px;
+    color: #340703;
+}
+
+
+
+.carousel-control-prev-icon{
+    background-color: #fe782e;
+}
+.carousel-control-next-icon{
+    background-color: #fe782e;
+}
+.footer{
+    width: 100%;
+    height: 430px;
+    background-color: #565656;
+}
+.about{
+    color: #f5f5f5;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+.about p{
+    padding-top: 25px;
+}
+.about h6{
+    font-weight: bold;
+}
+.nav-gation{
+    text-decoration: none;
+}
+.nav-gation{
+    color: #f5f5f5;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+.home{
+    float: left;
+}
+.rules{
+    padding-left: 230px;
+}
+.about-us{
+    float: left;
+}
+.contact-us{
+    padding-left: 230px;
+}
+.join-news{
+    color: #f5f5f5;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+.mail{
+    width: 330px;
+    height: 65px;
+}
+
+.ft-fb{
+    float: left;
+    padding-right: 15px;
+}
+.ft-icons{
+    padding-top: 10px;
+}
+@media screen and (max-width: 991px) {
+    .footer  {
+        width: auto;
+        height: auto;
+}
+}
+@media screen and (max-width: 991px) {
+    .about  {
+        width: auto;
+        margin-left: 40px;
+}
+}
+@media screen and (max-width: 991px) {
+    .nav-gation  {
+        width: auto;
+        margin-left: 40px;
+}
+}
+@media screen and (max-width: 991px) {
+    .join-news  {
+        width: auto;
+        margin-left: 40px;
+}
+}
+.copy-rights{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #fe782e;
+}
+.copy-rights h5{
+    color: #f5f5f5;
+    font-family: Roboto;
+    padding-top: 15px;
+}
